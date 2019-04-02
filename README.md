@@ -1,9 +1,9 @@
 # NumbCuve - AutoPlay
 numbcube系统监控及自动推流模块
 
-# 开源协议License
-[![LICENSE](https://img.shields.io/badge/license-MIT%20(The%20996%20Prohibited%20License)-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) See [LICENSE](
-https://github.com/996icu/996.ICU/blob/master/LICENSE)  for details.
+[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) 
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+
 
 # 运行原理
 本程序没分钟调用一次接口，解析返回的json，如返回有需要播放的影片，则根据对应数据调用ffmpeg推流，根据返回数据觉得是否需要转码，并在等待15秒后，将流同步推送到cdn服务器
